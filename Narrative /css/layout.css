@@ -1,0 +1,102 @@
+/*Home page*/
+
+	
+.container {
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width:900px;
+	}
+
+.title {
+	width: 100%;
+	margin-right: auto;
+	margin-top: 3em;
+	margin-left: auto;
+	text-align: center;
+	}	
+	
+.title img {
+	margin: 1em auto 1em auto;
+	text-align: center;
+	max-width: 400px;
+	}
+			
+		
+.donuts {
+	margin-top: 6em;
+	padding: 1em;
+	max-width: 900px;
+	
+	}
+.donuts li {
+	display: inline;
+	width: 30%;
+	float: left;
+	
+
+	}
+	
+		
+.intro {
+	float: left;
+	width:100%;
+	display: block;
+	margin-top:2em;
+	
+	
+	}
+		
+
+
+.into, p {
+	width: 70%;
+	display: block;
+	margin: 6em auto 1em auto;
+
+	}
+	
+hr {
+	width: 33%;
+	max-width: 15em;
+	color: #555;
+	border-top: 2px solid rgba(0,0,0,0.1);
+	margin: 4em;
+	}
+	
+	/*Timeline*/
+
+.timeline {
+	
+	background-color: #D8D8D8;
+	margin-top: 6em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 100%;
+	}
+	
+.origins_text {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: 10%;
+	width: 40%;
+	}
+
+.origins {
+	
+	margin-top: 2em;
+	margin-left: 10%;
+	color: white;
+}
+	
+	
+.clearfix:after {
+   content: " "; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}

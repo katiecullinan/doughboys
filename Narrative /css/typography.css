@@ -1,0 +1,34 @@
+
+body {
+	font-family: 'Open Sans', Futura, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #222;
+}
+h1 {
+	font-family: 'Open Sans', Futura, sans-serif;
+	font-weight: 200;
+	font-size: 30px;
+	line-height: 32px;
+	color: #555;
+	}
+	
+
+.contact {
+	
+	font-family: 'Open Sans', Futura, sans-serif;
+	font-size: 12px;
+	line-height: 1em;
+	text-align: center;
+	text-decoration:none;
+	}
+
+.into, p{
+	font-family: Tiempos, Georgia, Times, serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #555;
+	
+	}
+	
+
