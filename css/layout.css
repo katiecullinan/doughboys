@@ -260,6 +260,7 @@ hr {
 	text-align: center;
 	padding: 2em;
 	}
+
 .recipe{
 	
 	background-color: #B8B8B8 ; 
@@ -275,42 +276,61 @@ hr {
 	padding: 1em;
 	margin: 1em auto 0 auto;
 	max-width: 1000px;
+	clear:both;
 	}	
 	
 .recipe_head1 {
-	
+	width: 90%;
 	margin-top: 2em;
-	margin-left: 5%;
+	margin-left: 3em;
 	color: white;
 	display: block; cursor: pointer; font-weight: 300;
 	}	
 .recipe_head2 {
-	
+	width: 90%;
 	margin-top: 2em;
-	margin-left: 5%;
+	margin-left: 3em;
+	margin-bottom: 2em;
+	color: white;
+	display: block; cursor: pointer; font-weight: 300;
+	}	
+	
+.recipe_head3 {
+	width: 90%;
+	margin-top: 2em;
+	margin-left: 3em;
 	margin-bottom: 2em;
 	color: white;
 	display: block; cursor: pointer; font-weight: 300;
 	}	
 		
-	
+		
+.recipe_text ul{
+	width: 100%;
+	text-align:center;
+	}	
 
 .recipe_text ul li{
 	list-style-type: none;
 	line-height: 2em;
-	font-size: 16px;
+	font-size: 18px;
+	text-align:center;
+	font-family: 'Raleway', Futura, sans-serif;
 	}
 
 .recipe_text ol {
-	width: 50%;
-	line-height: 2em;
+	width: 100%;
+	line-height: 1.7em;
 	font-size: 16px;
+	margin-top: 2em;
+	
+	
 	}
 	
 recipe_column {
-width: 50%;
+width: 45%;
 float: left;
-clear: both;
+
 }	
 	
 .toggle1 {
@@ -318,6 +338,11 @@ display: none;
 }
 
 .toggle2 {
+display: none;
+
+}	
+
+.toggle3 {
 display: none;
 margin-bottom: 8em;
 }		
@@ -350,7 +375,15 @@ clear: both;
 
 clear: both;
 
-}	
+}
+
+#bakeries {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 2em;
+	}	
 
 #title {
 	width: 100%;
@@ -391,4 +424,10 @@ clear: both;
 	opacity: .5;
 	}
 contact  a:visited {color: #555;}
+
+recipe_column {
+
+	float: left;
+	clear: both; 
+	}	
 	
