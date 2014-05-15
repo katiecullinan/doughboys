@@ -455,6 +455,12 @@ recipe_column {
 @media only screen and (max-width: 900px) {
 /* Style adjustments for small screens */
 
+hr {
+color: #555;
+border: 1px 
+}
+
+
 	.donuts {
 		width: 90%;
 		clear: both;
@@ -495,14 +501,63 @@ recipe_column {
 	#mobile_nav ul li {
 		display: block;	
 		list-style-type: none;
+		font-size: 1.5em;
+		margin-top: 1em;
 	}
 	
 	#mobile_nav ul li a {
 		list-style-type: none;	
 		color:black;
 		text-decoration: none;
-		
+		display: block;
+		}
+	#mobile_nav ul li a:hover {
+	opacity: .5;
 	}
-
+		
+		
+ .origins_text {
+ 	width: 90%;
+ 	}
+ 	
+ 	
+ .origins_text2 {
+ 	float: left;
+ 	width: 90%;
+ 	text-align: left;
+ 	}
+ 
+ .origins_text3 {
+  float:left;
+  width: 90%;
+  text-align: left;
+  }
+  
+  .head2 {
+  float:left;
+  }
+  
+  .bake-caption {
+  width: 90%;
+  }
+   
+  .bake-image {
+  width: 90%;
+  }
 	
+ .group-caption {	
+  width: 90%;
+  }
+  
+  .group-image {
+  width: 90%;
+  }
+  
+  @media only screen and (max-width: 550px) {
+/* Style adjustments for small screens */
+
+.donuts {
+	display: none;
+	}
+  
 	
