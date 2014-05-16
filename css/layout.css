@@ -313,6 +313,7 @@ text-align: center;
 .recipe_text ul{
 	width: 100%;
 	text-align:center;
+	padding: 0;
 	}	
 
 .recipe_text ul li{
@@ -321,6 +322,7 @@ text-align: center;
 	font-size: 18px;
 	text-align:center;
 	font-family: 'Raleway', Futura, sans-serif;
+	
 	}
 .amount {
 line-height: 2em;
@@ -334,7 +336,8 @@ line-height: 2em;
 	line-height: 1.7em;
 	font-size: 16px;
 	margin-top: 2em;
-	
+	text-align: center;
+	padding: 0;
 	
 	}
 	
@@ -377,7 +380,7 @@ clear: both;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #555;
-	margin-left: 3em;
+	margin-left: 1em;
 	margin-top: 2em;
 }	
 
@@ -612,35 +615,9 @@ padding: 2em;
   float:left;
     margin-left: 0;
   }
-  .bake-caption {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  }
-   
-  .bake-image {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  }
-	
- .group-caption {	
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  }
-  
-  .group-image {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  }
-  
-  .group {
-  margin-left: auto;
-  margin-right: auto;
  
-  }
+	
+ 
   .varieties {
   margin: 0;
   
@@ -662,6 +639,18 @@ padding: 2em;
  margin-bottom: 0;
  margin-top: 0;
   }
+  
+  .recipe_text ol {
+  font-size: 16px;
+  } 
+  
+   .recipe_text ul li{
+  font-size: 16px;
+  } 
+  
+  .recipe_text p {
+  font-size: 16px;
+  } 
   
  
   .timeline_text {
@@ -715,8 +704,8 @@ line-height: 1em;
 
   }
   
-  
-  @media only screen and (max-width: 582px) {
+
+  @media only screen and (max-width: 500px) {
 /* Style adjustments for small screens */
 
 #home {
@@ -739,8 +728,31 @@ line-height: 1em;
   }
   
 	.group-image {
-  width: 80%;
-   margin-left: auto;
-  margin-right: auto;
+  width: 70%;
+   margin-left: 2em;
+ }
+ 
+ 
+  .bake-caption {
+  width: 90%;
+  margin-left: 2em;
   
   }
+   
+  .bake-image {
+  width: 90%;
+  margin-left: 2em;
+  
+  }
+  
+    .recipe_text ol {
+  font-size: 14px;
+  } 
+  
+   .recipe_text ul li{
+  font-size: 14px;
+  } 
+  
+  .recipe_text p {
+  font-size: 14px;
+  } 
