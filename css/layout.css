@@ -467,13 +467,44 @@ recipe_column {
 display: block; cursor: pointer;
 text-align: left;
 margin-left: 1em;
+ font-weight: 300;
 }
 
 .mobile_hide {
 display: none;
 }
 
+.mobile_show1 {
+display: block; cursor: pointer;
+text-align: left;
+margin-left: 1em;
+ font-weight: 300;
+}
 
+.mobile_hide1 {
+display: none;
+}
+
+.mobile_show2 {
+display: block; cursor: pointer;
+text-align: left;
+margin-left: 1em;
+ font-weight: 300;
+}
+
+.mobile_hide2 {
+display: none;
+}
+.mobile_show3 {
+display: block; cursor: pointer;
+text-align: left;
+margin-left: 1em;
+ font-weight: 300;
+}
+
+.mobile_hide3 {
+display: none;
+}
 hr {
 margin-top:1em;
 margin-left: 0;
