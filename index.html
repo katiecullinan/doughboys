@@ -82,7 +82,9 @@
 	
 	<div class="timeline_text">
 	
-	<h1><a id="history">HISTORY</a></h1>
+	<h1><a id="history" class="mobile_show">HISTORY</a></h1>
+	
+	<div class="mobile_hide">
 	
 	<h2 class="head">ORIGINS</h2>
 	<hr>
@@ -103,6 +105,8 @@
 	<p class="origins_text3 class"> Doughnuts became popular in the US after American soliders returned home from WWI. During the war female Salvation Army workers known as “Doughnut Girls” would fry and distribute doughnuts to the American soldiers fighting in France. They offered a taste of home to the soldiers, who became known as “Doughboys.” Doughnut Girls were replaced by “Doughnut Dollies” during World War II. </p>
 
 	</div>
+	
+	</div>
 	</div>
 	
 
@@ -110,8 +114,9 @@
 
 	<div class="varieties clearfix">	
 
-	<h1><a id="varieties">VARIETIES</a></h1>
+	<h1><a id="varieties" class="mobile_show">VARIETIES</a></h1>
 	
+<div class="mobile_hide">
 <div class="group clearfix">
   <div class="group-image">
     <img src="img/glazed_donut.png" alt="Glazed Donut">
@@ -201,13 +206,17 @@
   </div>
 </div>	
 
+</div>
+
 	</div>
 	
 <div class="recipe clearfix">
 	<div class="recipe_text">
 	
 	
-	<h1><a id="recipe">RECIPES</a></h1>
+	<h1><a id="recipe" class="mobile_show">RECIPES</a></h1>
+	
+<div class="mobile_hide">
 	
 	<div class="recipe_column">
 		<h2 class="recipe_head1">Yeast</h2>
@@ -224,7 +233,7 @@
 		<li> 4 tbsp unsalted butter, softened at room temperature and cut into cubes </li>
 		<li> Vegetable oil for frying </li>
 	</ul>
-
+<hr>
 	<ol>
 	<li>In a medium bowl, combine 1 tbsp of the yeast with 3/4 cup of the warm milk and stir to dissolve the yeast. 
 	Add 3/4 cup of the flour and stir to create a smooth paste. Cover the bowl with plastic wrap and let the flour 
@@ -262,8 +271,9 @@
 	Transfer as done to the wire rack and return the oil to 360°F between batches. </li>
 	
 	</ol>
+	
 	<p class="amount">Recipe makes 8 to 12 doughnuts.</p>
-
+<hr>
 </div>
 </div>
 
@@ -286,7 +296,7 @@
 		<li>  1/2 tsp ground cinnamon</li>
 		<li>  1/2 cup white sugar </li>
 	</ul>
-
+<hr>
 	<ol>
 	<li>In a large bowl, stir together the flour, 1/2 cup sugar, baking powder, salt, 1 teaspoon of cinnamon and nutmeg. Make a well in the center and pour in the milk, egg, butter, and vanilla. Mix until well blended. Cover and refrigerate for 1 hour.</li>
  <br />
@@ -295,7 +305,7 @@
 	<li>Fry doughnuts in hot oil until golden brown, turning once. Remove from oil to drain on paper plates. Combine the remaining 1/2 teaspoon cinnamon and 1/2 cup sugar in a large resealable bag. Place a few warm donuts into the bag at a time, seal and shake to coat. </li>
  
  <p class="amount">Recipe makes 16 doughnuts and holes.</p>
-	
+	<hr>
 	</ol>
 
 </div>
@@ -320,7 +330,7 @@
 		<li> 6 cups all-purpose flour </li> 
 		<li>1/2 teaspoon ground cinnamon</li>
 	</ul>
-
+<hr>
 	<ol>
 	<li>In a large bowl, dissolve yeast in warm buttermilk. Add potatoes, eggs and butter. Add 2 cups sugar, baking powder, baking soda, salt, nutmeg and 3 cups flour. Beat until smooth. Stir in enough remaining flour to form a soft dough. Do not knead. Cover and refrigerate for 2 hours.</li>
  <br />
@@ -330,7 +340,10 @@
 
 	</ol>
  <p class="amount">Recipe makes 24 doughnuts.</p>
+ <hr>
 </div>
+</div>
+
 </div>
 	</div>
 	</div>	
@@ -338,8 +351,9 @@
 	
 <div class="varieties clearfix">	
 	
-<h1><a id="bakeries">NOTABLE BAKERIES</a></h1>	
+<h1><a id="bakeries" class="mobile_show">NOTABLE BAKERIES</a></h1>	
 
+<div class="mobile_hide">
 	<div class="bake clearfix">
   <div class="bake-image">
     <a href="http://www.cafedumonde.com/" target="_blank"><img src="img/beignets.png" alt="Cafe Du Monde"></a>
@@ -377,6 +391,9 @@
 	longer exists, but independent stores remain. The Charlottesville shop has several varieties including blueberry,
 	chocolate glazed and cinnamon.</p>
 </div>
+
+</div>
+
 </div>	
 
 
@@ -386,14 +403,14 @@
 	<div id="mobile_nav">
 			<ul>
 			<li><a href="#home">Home</a></li>
-			<hr />
+		
 			<li><a href="#history">History</a></li>
-			<hr />
+		
 			<li><a href="#varieties">Varieties</a></li>
-			<hr />
+		
 			<li><a href="#recipe">Recipes</a></li>
-			<hr />
-			<li><a href="#bakeries">Bakeries <a></li>
+		
+			<li><a href="#bakeries">Bakeries </a></li>
 			</ul>
 		</div>
 		
@@ -441,6 +458,13 @@ $(".recipe_head3").click(function(){
   $(".toggle3").toggle();
 }); 
 </script>
+
+<script>
+$(".mobile_show").click(function(){
+  $(".mobile_hide").toggle();
+}); 
+</script>
+
 
 </body>
 </html>

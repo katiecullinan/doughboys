@@ -21,8 +21,9 @@
 	
 	color: #222222;
 	position: fixed;
-	padding: 10px 5px 10px 40px;
+	padding: 10px 5px 10px 35px;
 	margin-top: 10em;
+	margin-right:1em;
 	
 	}
 
@@ -40,27 +41,15 @@
 	
 	text-decoration: none;
 	color: #222;
-	
 	}		
 
-.navbar > li > a:hover {
-	opacity: .5;
-	}
+
 	
 	
 .navbar >li> a:visited {color: #222;}
 	
-.navbar a {
-  display: block;  /* needed so that links expand to fill space */
-  
-}
 
-/*.navbar a:hover {
-  background: #ccc; /* make background gray on hover */
-} *?
-	
 
-	
 
 			
 		
@@ -191,8 +180,8 @@
 hr {
 	width: 100%;
 	max-width: 1000px;
-	color: white;
-	border-top: 1px solid white;
+
+	border-top: 2px solid #FFC1EA;
 	margin: 2em;
 	}		
 	
@@ -275,10 +264,15 @@ hr {
 	width: 100%;
 	}
 	
+.recipe_text h1{
+	text-align: center;
+	}	
+	
 .recipe_text {
+text-align: center;
 	width: 80%;
 	padding: 1em;
-	margin: 1em auto 0 auto;
+	margin: 1em auto 2em auto;
 	max-width: 1000px;
 	clear:both;
 	}	
@@ -286,15 +280,20 @@ hr {
 .recipe_head1 {
 	width: 90%;
 	margin-top: 2em;
-	margin-left: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	color: white;
 	display: block; cursor: pointer; font-weight: 300;
 	}	
 .recipe_head2 {
 	width: 90%;
 	margin-top: 2em;
-	margin-left: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	
+
 	color: white;
 	display: block; cursor: pointer; font-weight: 300;
 	}	
@@ -302,7 +301,9 @@ hr {
 .recipe_head3 {
 	width: 90%;
 	margin-top: 2em;
-	margin-left: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	
 	color: white;
 	display: block; cursor: pointer; font-weight: 300;
@@ -338,8 +339,7 @@ line-height: 2em;
 	}
 	
 recipe_column {
-width: 45%;
-float: left;
+
 
 }	
 	
@@ -425,6 +425,12 @@ clear: both;
 	color: #555;
 	}	
 	
+	.navbar > li > a:hover {
+	
+	color: #FF3399;
+	font-style: italic
+	}
+	
 .contact a {
 	text-decoration: none;
 	color: #555;
@@ -432,6 +438,7 @@ clear: both;
 	
 .contact	a:hover {
 	opacity: .5;
+	font-style: italic
 	}
 contact  a:visited {color: #555;}
 
@@ -455,11 +462,24 @@ recipe_column {
 @media only screen and (max-width: 900px) {
 /* Style adjustments for small screens */
 
+
+
+
+
 hr {
-color: #555;
-border: 1px 
+margin-top:1em;
+margin-left: 0;
 }
 
+.banner{
+margin-left: auto;
+margin-right: auto;
+margin-top: 4em;
+margin-bottom: 0;
+}
+.contact {
+padding: 2em;
+}
 
 	.donuts {
 		width: 90%;
@@ -477,8 +497,8 @@ border: 1px
 	#mobile_nav {
 		clear: both;
 		display: block;
-		margin-top: 3em;
-		padding: 1em 0 3em 0;
+		margin-top: 4em;
+		font-size: 12px;
 	}
 		
 	#mobile_jump {
@@ -490,7 +510,8 @@ border: 1px
 	
 	#mobile_jump a{	
 		text-decoration:none;
-		color:black;
+		color: #555;
+		
 		}	
 	
 	.container {
@@ -502,7 +523,9 @@ border: 1px
 		display: block;	
 		list-style-type: none;
 		font-size: 1.5em;
-		margin-top: 1em;
+		width: 90%;
+		
+		border: 1px solid #A6A6A6;
 	}
 	
 	#mobile_nav ul li a {
@@ -510,14 +533,20 @@ border: 1px
 		color:black;
 		text-decoration: none;
 		display: block;
+		padding: 1em
 		}
-	#mobile_nav ul li a:hover {
-	opacity: .5;
+		
+		
+	#mobile_nav a:hover {
+	
+	color: #FF3399;
+	font-style: italic
 	}
 		
 		
  .origins_text {
  	width: 90%;
+ 	margin: 0 auto 0 auto;
  	}
  	
  	
@@ -525,39 +554,114 @@ border: 1px
  	float: left;
  	width: 90%;
  	text-align: left;
+ 	margin: 0 auto 0 auto;
  	}
  
  .origins_text3 {
   float:left;
   width: 90%;
   text-align: left;
+  margin: 0 auto 2em auto;
   }
   
   .head2 {
   float:left;
+  margin-left: 0;
   }
-  
+   .head {
+  float:left;
+    margin-left: 0;
+  }
   .bake-caption {
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   }
    
   .bake-image {
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   }
 	
  .group-caption {	
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   }
   
   .group-image {
-  width: 90%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   }
   
-  @media only screen and (max-width: 550px) {
+  .group {
+  margin-left: auto;
+  margin-right: auto;
+ 
+  }
+  
+  .timeline {
+  margin-top: 2em;
+  }
+  
+  h1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+  
+  #history {
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  #varieties {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  }
+  
+	#recipe {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  }
+  
+  #bakeries {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+line-height: 1em;
+  }
+  
+  
+  @media only screen and (max-width: 582px) {
 /* Style adjustments for small screens */
+
+#home {
+	width: 100%;
+	}
 
 .donuts {
 	display: none;
 	}
   
-	
+  #intro_text {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  }
+  
+  .timeline {
+  margin-top: 2em;
+  }
+  
+	.group-image {
+  width: 80%;
+   margin-left: auto;
+  margin-right: auto;
+  
+  }
