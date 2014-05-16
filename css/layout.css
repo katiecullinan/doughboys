@@ -692,7 +692,6 @@ padding: 2em;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  text-align: center;
    
   }
   
@@ -712,15 +711,15 @@ line-height: 1em;
 	width: 100%;
 	}
 
-.donuts {
-	display: none;
-	}
+
+
   
   #intro_text {
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
   font-size: 16px;
+  width: 80%;
   }
   
   .timeline {
@@ -732,6 +731,11 @@ line-height: 1em;
    margin-left: 2em;
  }
  
+ .group-caption {
+ margin-left: 2em;
+ width: 90%;
+ 
+ }
  
   .bake-caption {
   width: 90%;
@@ -756,3 +760,7 @@ line-height: 1em;
   .recipe_text p {
   font-size: 14px;
   } 
+  
+  .donuts {
+	display:none;
+	}
